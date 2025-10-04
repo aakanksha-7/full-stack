@@ -1,37 +1,31 @@
-// Create a variable of type string and try  to add a number to it.
-var a = "5";
-var b = "6";
-console.log(a + b);
-// Use type of operator to find the datatype of the string in last question.
-console.log(typeof a, typeof b);
-// Create a const object in javascript. Can you change it to hold a number later?
-const items = {
-    "name": "himansu",
-    "age": 21,
-};
-console.log(items);
-// Try to add a new key to the const object in problem 3 were you able to do it?
-items.grade = "A";
-items["city"] = "ghorahi";
-
-console.log(items);
+// let a = "string tutorial";
+// console.log(a[0]);
+// console.log(a[1]);
+// console.log(a[2]);
+// console.log(a[3]);
+// console.log(a[4]);
+// console.log(a[5]);
 
 
-// Write a JS program to create a word-meaning dictionary of 5 words.
+// let name="aakanksha";
+// let another_name="himansu";
+// console.log(`first person name is ${name} and another persons name is ${another_name}`);
 
-console.log("This is the dictonary")
-const dictionary = {
-    Happy : "feeling good or pleased",
 
-    Run : "to move quickly with your legs",
+// Write a program to print the marks of a student in an object using for loop.
+// obj = {harry: 98, rohan: 70, aakash: 7}
+let obj = {harry: 98, rohan: 70, aakash: 7};
 
-    Big : "large in size",
+let keys = Object.keys(obj); // ["harry", "rohan", "aakash"]
 
-    Book : "a set of written or printed pages",
+for (let i = 0; i < keys.length; i++) {
+    let key = keys[i];         // one name at a time
+    console.log(key + obj[key]);
+}
 
-    Hot : "having a high temperature",
-};
 
-console.log(dictionary)
+// Write the program in Q1 using for in loop.
+
+// Write a program to print "try again" until the user enters the correct number.
 
 
